@@ -8,3 +8,5 @@ npm create vite@latest
 
 ```
 * todo list practice
+
+* pie chart practice
