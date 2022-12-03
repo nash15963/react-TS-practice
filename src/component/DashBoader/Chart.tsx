@@ -1,10 +1,10 @@
-import React, { ChangeEvent, useState } from 'react'
+import React, { ChangeEvent, FC, useState } from 'react'
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js';
 import { Doughnut } from 'react-chartjs-2';
 
 
 
-const Chart = () => {
+const Chart:FC = () => {
     // 製作一個 時間軸固定（x bar )，分數會改變的五個分數軸
     const [first, setfirst] = useState<number>(0)
     const [second, setSecond] = useState<number>(1)
